@@ -2,7 +2,7 @@ import os
 from DetermineColor import DetermineColor
 import json
 
-PATH = "/home/ilyas/local_disk/Py/ELAN/clothes_classification_by_color_opencv/khasan1/"
+PATH = "/home/ilyas/local_disk/Py/ELAN/clothes_classification_by_color_opencv/images/"
 color_determiner = DetermineColor()
 n = os.listdir(PATH)
 n = [i for i in n if not i.endswith("json")]
